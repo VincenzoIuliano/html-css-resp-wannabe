@@ -1,0 +1,21 @@
+/* MEDIA QUERIES */
+/* DESKTOP FIRST */
+
+/* MODIFICA FINO A 1140PX, POSSO AGGIUNGERE UNA MEDIA QUERY */
+.container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+    
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+    }
+}
